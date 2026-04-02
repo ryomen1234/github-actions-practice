@@ -27,4 +27,4 @@ jobs:
             docker system prune -f
 
             docker build --no-cache -t fastapi-app .
-            docker run -d -p 8000:8000 --name fastapi-app fastapi-app
+            docker run -d -p 8888:8888 --name fastapi-app fastapi-app
